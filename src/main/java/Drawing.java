@@ -1,9 +1,12 @@
+import Shapes.Circle;
+import Shapes.Rect;
+
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 public class Drawing extends Canvas {
-    // A private field called f of class Frame. This is also in the AWT.
+    // A private field called f of class Frsame. This is also in the AWT.
     private Frame f;
     private Circle circle;
     Point p=new Point(200,200);
