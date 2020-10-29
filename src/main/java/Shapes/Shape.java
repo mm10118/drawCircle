@@ -2,7 +2,7 @@ package Shapes;
 
 import java.awt.*;
 
-public abstract class Shape {
+public abstract class Shape implements drawable{
     protected Point pos;
     protected Color col;
 
